@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Data Entry</title>
+    </head>
+    <body>
+        <h1>Product Management System</h1>
+        <h2>Enter Product Data</h2>
+        <form action="{{url_for('handleData')}}" method="post">
+            <div>
+                <label for="product_category">Product Category:</label>
+                <input name="product_category" type="text" required><br>
+                <label for="product_description">Product Description:</label>
+                <input name="product_description" type="text" required><br>
+                <label for="pice">Price:</label>
+                <input name="price" type="text" required><br>
+                <label for="product_code">Product Code:</label>
+                <input name="product_code" type="text" required><br>
+                <br><input type="submit" value="Submit Data">
+            </div>
+    </body>
+</html>

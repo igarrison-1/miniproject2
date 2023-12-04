@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Search</title>
+    </head>
+    <body>
+        <h1>Product Management System:</h1>
+        <form action="{{url_for('results')}}" method="post">
+            <div>
+                <label for="category_search">Select category to retrieve from database:</label>
+                <input name="category_search" type="text" placeholder="leave blank to print all"><br>
+                <br><input type="submit" value="Search">
+            </div>
+    </body>
+</html>

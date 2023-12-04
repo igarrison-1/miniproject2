@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+    <h1>Poduct Management System</h1>
+    <h2>{{df.to_html(classes="table table-striped") | safe}}</h2>
+    <form action="{{ url_for('home') }}">
+        <input type="submit" value="OK">
+    </form>
+</html>
